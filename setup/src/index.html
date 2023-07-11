@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/dist/output.css" />
+    <title>Counter</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="">
+    <main class="flex justify-center items-center h-screen text-center">
+      <section class="w-96 h-64">
+        <h1 class="text-4xl font-bold text-indigo-900">Counter</h1>
+        <p id="number" class="my-8 text-6xl font-bold text-green-600">3</p>
+        <div>
+          <button
+            id="decrease-btn"
+            class="border-2 rounded-lg px-4 border-black tracking-widest hover:border-sky-500"
+          >
+            DECREASE
+          </button>
+          <button
+            id="reset-btn"
+            class="mx-4 border-2 rounded-lg px-4 border-black tracking-widest hover:border-sky-500"
+          >
+            RESET
+          </button>
+          <button
+            id="increase-btn"
+            class="border-2 rounded-lg px-4 border-black tracking-widest hover:border-sky-500"
+          >
+            INCREASE
+          </button>
+        </div>
+      </section>
+    </main>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
